@@ -1,0 +1,38 @@
+.my-bank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button {
+  background-color: #3c7787;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.buttons {
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cash-count {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.customer-card {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 0.4rem;
+}
+
